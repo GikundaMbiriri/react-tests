@@ -20,7 +20,7 @@ describe('Conter Two', () => {
         handleIncrement={incrementHandler}
       />,
     )
-    const incrementButton = screen.getByRole('button', { name: 'Increment' })
+    const incrementButton = screen.getByRole('button', { name: 'ncrement' })
     const decrementButton = screen.getByRole('button', { name: 'Decrement' })
     await user.click(incrementButton)
     await user.click(decrementButton)
