@@ -39,10 +39,10 @@ function Application() {
             conditions
           </label>
         </div>
-        <button>Submit</button>
+        <button disabled>Submit</button>
       </form>
     </>
-  );
+  )
 }
 
-export default Application;
+export default Application

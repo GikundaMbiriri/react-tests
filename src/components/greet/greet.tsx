@@ -1,7 +1,7 @@
-import { GreetProps } from "./greet.types";
+import { GreetProps } from './greet.types'
 
 const Greet = (props: GreetProps) => {
-  return <div>Hello {props.name ? props.name : "Mbizzy"}</div>;
-};
+  return <div>Hello {props.name ? props.name : 'Mbizzy'}</div>
+}
 
-export default Greet;
+export default Greet
